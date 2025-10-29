@@ -2,14 +2,22 @@
   "name": "latex-editor",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "start": "electron ."
-},
+  "scripts": {
+    "start": "electron ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "If you want to edit the source code, copy this repo on github and run the following commands to install electron :\r \"npm init -y\"\r \"npm install --save-dev electron\"\r And normally, you can run the application with the command : \"npm start\"",
   "devDependencies": {
     "electron": "^39.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyotoangel/latex-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyotoangel/latex-editor/issues"
+  },
+  "homepage": "https://github.com/kyotoangel/latex-editor#readme"
 }
