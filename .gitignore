@@ -1,0 +1,23 @@
+# Node / Electron
+node_modules/
+dist/
+out/
+build/
+*.log
+
+# Cache
+.cache/
+temp/
+.DS_Store
+
+# Electron build artifacts
+*.asar
+*.exe
+*.dmg
+*.deb
+*.AppImage
+*.zip
+
+# Env / config locaux
+.env
+.env.local
